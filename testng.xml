@@ -1,0 +1,12 @@
+
+<suite name="Suite" parallel="tests">
+
+	<test name="me">
+		<parameter name="ip" value="localhost" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="script.TestLogin" />
+		</classes>
+	</test>
+	
+</suite> 
